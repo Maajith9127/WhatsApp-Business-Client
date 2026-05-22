@@ -1,0 +1,132 @@
+Date : 2025-09-01 01:04:05
+Directory : c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client
+Total : 73 files,  9550 codes, 548 comments, 596 blanks, all 10694 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| JSON           |          2 |      5,591 |          0 |          2 |      5,593 |
+| JavaScript JSX |         54 |      3,683 |        530 |        527 |      4,740 |
+| JavaScript     |         10 |        231 |         16 |         52 |        299 |
+| PostCSS        |          2 |         19 |          2 |          6 |         27 |
+| HTML           |          1 |         13 |          0 |          1 |         14 |
+| Markdown       |          1 |         10 |          0 |          7 |         17 |
+| XML            |          2 |          2 |          0 |          0 |          2 |
+| Properties     |          1 |          1 |          0 |          1 |          2 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                                           | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                              |         73 |      9,550 |        548 |        596 |     10,694 |
+| . (Files)                                                                                                                                      |          8 |      5,667 |          2 |         16 |      5,685 |
+| public                                                                                                                                         |          1 |          1 |          0 |          0 |          1 |
+| src                                                                                                                                            |         64 |      3,882 |        546 |        580 |      5,008 |
+| src (Files)                                                                                                                                    |          4 |         93 |          7 |         18 |        118 |
+| src\ReduxStates                                                                                                                                |          5 |        292 |        150 |         46 |        488 |
+| src\ReduxStates (Files)                                                                                                                        |          1 |         13 |          0 |          5 |         18 |
+| src\ReduxStates\slices                                                                                                                         |          4 |        279 |        150 |         41 |        470 |
+| src\assets                                                                                                                                     |          1 |          1 |          0 |          0 |          1 |
+| src\components                                                                                                                                 |          1 |         25 |          3 |          3 |         31 |
+| src\components\modal                                                                                                                           |          1 |         25 |          3 |          3 |         31 |
+| src\context                                                                                                                                    |          1 |         67 |          8 |         15 |         90 |
+| src\features                                                                                                                                   |         45 |      3,225 |        364 |        451 |      4,040 |
+| src\features\auth                                                                                                                              |          5 |        441 |         32 |         51 |        524 |
+| src\features\dashboard                                                                                                                         |          9 |        331 |         31 |         62 |        424 |
+| src\features\invoices                                                                                                                          |          6 |        421 |        136 |         89 |        646 |
+| src\features\invoices (Files)                                                                                                                  |          3 |        237 |        123 |         68 |        428 |
+| src\features\invoices\SendInvoicesComponents                                                                                                   |          3 |        184 |         13 |         21 |        218 |
+| src\features\layout                                                                                                                            |          2 |         92 |          5 |         13 |        110 |
+| src\features\messageAnalytics                                                                                                                  |          1 |         74 |         98 |         21 |        193 |
+| src\features\settings                                                                                                                          |         14 |      1,001 |         31 |        116 |      1,148 |
+| src\features\settings (Files)                                                                                                                  |          1 |         70 |          1 |         12 |         83 |
+| src\features\settings\components                                                                                                               |          4 |        108 |          0 |         13 |        121 |
+| src\features\settings\elements                                                                                                                 |          9 |        823 |         30 |         91 |        944 |
+| src\features\templates                                                                                                                         |          8 |        865 |         31 |         99 |        995 |
+| src\features\templates (Files)                                                                                                                 |          2 |        187 |         15 |         26 |        228 |
+| src\features\templates\templateBuilder                                                                                                         |          6 |        678 |         16 |         73 |        767 |
+| src\hooks                                                                                                                                      |          1 |         60 |          0 |         10 |         70 |
+| src\services                                                                                                                                   |          6 |        119 |         14 |         37 |        170 |
++------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                                                                                       | language       | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\.env                                                                 | Properties     |          1 |          0 |          1 |          2 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\README.md                                                            | Markdown       |         10 |          0 |          7 |         17 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\eslint.config.js                                                     | JavaScript     |         32 |          0 |          2 |         34 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\index.html                                                           | HTML           |         13 |          0 |          1 |         14 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\package-lock.json                                                    | JSON           |      5,544 |          0 |          1 |      5,545 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\package.json                                                         | JSON           |         47 |          0 |          1 |         48 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\public\vite.svg                                                      | XML            |          1 |          0 |          0 |          1 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\App.css                                                          | PostCSS        |          1 |          0 |          1 |          2 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\App.jsx                                                          | JavaScript JSX |         57 |          5 |          8 |         70 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\ReduxStates\slices\customerSlice.jsx                             | JavaScript JSX |        143 |          3 |          7 |        153 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\ReduxStates\slices\globalErrorSlice.jsx                          | JavaScript JSX |         11 |          1 |          3 |         15 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\ReduxStates\slices\invoiceSlice.jsx                              | JavaScript JSX |         60 |          5 |         11 |         76 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\ReduxStates\slices\templateStatsSlice.jsx                        | JavaScript JSX |         65 |        141 |         20 |        226 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\ReduxStates\store.jsx                                            | JavaScript JSX |         13 |          0 |          5 |         18 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\assets\react.svg                                                 | XML            |          1 |          0 |          0 |          1 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\components\modal\TemplateModal.jsx                               | JavaScript JSX |         25 |          3 |          3 |         31 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\context\AuthContext.jsx                                          | JavaScript JSX |         67 |          8 |         15 |         90 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\auth\Auth.jsx                                           | JavaScript JSX |         98 |          0 |          6 |        104 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\auth\Forgot_password.jsx                                | JavaScript JSX |        108 |          2 |         11 |        121 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\auth\Login.jsx                                          | JavaScript JSX |         96 |          0 |         12 |        108 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\auth\Registration.jsx                                   | JavaScript JSX |        104 |         29 |         15 |        148 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\auth\verifyemail.jsx                                    | JavaScript JSX |         35 |          1 |          7 |         43 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\dashboard\BusinessNumbers.jsx                           | JavaScript JSX |         25 |          5 |          6 |         36 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\dashboard\Calendar.jsx                                  | JavaScript JSX |         28 |          2 |          5 |         35 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\dashboard\CreateTemplates.jsx                           | JavaScript JSX |         33 |          5 |          8 |         46 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\dashboard\DashBoard.jsx                                 | JavaScript JSX |         45 |          4 |          8 |         57 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\dashboard\GraphVisuals.jsx                              | JavaScript JSX |         40 |          1 |          8 |         49 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\dashboard\MessageAnalyticsCard.jsx                      | JavaScript JSX |         39 |          5 |          8 |         52 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\dashboard\RunCampaign.jsx                               | JavaScript JSX |         25 |          5 |          6 |         36 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\dashboard\TopSenderCard.jsx                             | JavaScript JSX |         37 |          1 |          7 |         45 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\dashboard\TopTemplatesCard.jsx                          | JavaScript JSX |         59 |          3 |          6 |         68 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\invoices\InvoiceTable.jsx                               | JavaScript JSX |         92 |          5 |         10 |        107 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\invoices\Invoices.jsx                                   | JavaScript JSX |         71 |         85 |         33 |        189 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\invoices\SendInvoices.jsx                               | JavaScript JSX |         74 |         33 |         25 |        132 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\invoices\SendInvoicesComponents\CustomerSelector.jsx    | JavaScript JSX |         24 |          0 |          3 |         27 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\invoices\SendInvoicesComponents\TemplateSelector.jsx    | JavaScript JSX |         26 |          0 |          3 |         29 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\invoices\SendInvoicesComponents\WhatsAppPreview.jsx.jsx | JavaScript JSX |        134 |         13 |         15 |        162 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\layout\MainLayout.jsx                                   | JavaScript JSX |         16 |          1 |          3 |         20 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\layout\SideBar.jsx                                      | JavaScript JSX |         76 |          4 |         10 |         90 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\messageAnalytics\MessageAnalytics.jsx                   | JavaScript JSX |         74 |         98 |         21 |        193 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\settings\ProfileSetting.jsx                             | JavaScript JSX |         70 |          1 |         12 |         83 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\settings\components\SettingsHeader.jsx                  | JavaScript JSX |         15 |          0 |          4 |         19 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\settings\components\StatsCard.jsx                       | JavaScript JSX |         31 |          0 |          2 |         33 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\settings\components\SwitchToggle.jsx                    | JavaScript JSX |         44 |          0 |          4 |         48 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\settings\components\TabButton.jsx                       | JavaScript JSX |         18 |          0 |          3 |         21 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\settings\elements\BillingPage.jsx                       | JavaScript JSX |         81 |          4 |          7 |         92 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\settings\elements\EmailPage.jsx                         | JavaScript JSX |         71 |          3 |          8 |         82 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\settings\elements\IntegrationPage.jsx                   | JavaScript JSX |         69 |          4 |          9 |         82 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\settings\elements\MyDetailsPage.jsx                     | JavaScript JSX |        190 |          1 |         23 |        214 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\settings\elements\NotificationSection.jsx               | JavaScript JSX |         51 |          0 |          5 |         56 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\settings\elements\PasswordPage.jsx                      | JavaScript JSX |         85 |          3 |         10 |         98 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\settings\elements\PlanPage.jsx                          | JavaScript JSX |         85 |          3 |          7 |         95 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\settings\elements\ProfilePage.jsx                       | JavaScript JSX |        106 |          9 |         12 |        127 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\settings\elements\TeamPage.jsx                          | JavaScript JSX |         85 |          3 |         10 |         98 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\templates\TemplateStatsTable.jsx                        | JavaScript JSX |        114 |          8 |         12 |        134 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\templates\TemplatesStats.jsx                            | JavaScript JSX |         73 |          7 |         14 |         94 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\templates\templateBuilder\BodyComponent.jsx             | JavaScript JSX |        112 |          6 |         13 |        131 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\templates\templateBuilder\ErrorMessage.jsx              | JavaScript JSX |         12 |          0 |          2 |         14 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\templates\templateBuilder\FooterComponent.jsx           | JavaScript JSX |         32 |          4 |          4 |         40 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\templates\templateBuilder\HeaderComponent.jsx           | JavaScript JSX |        183 |          0 |         19 |        202 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\templates\templateBuilder\TemplateBuilder.jsx           | JavaScript JSX |        254 |          2 |         24 |        280 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\features\templates\templateBuilder\WhatsAppPreview.jsx           | JavaScript JSX |         85 |          4 |         11 |        100 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\hooks\useUserDetails.js                                          | JavaScript     |         60 |          0 |         10 |         70 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\index.css                                                        | PostCSS        |         18 |          2 |          5 |         25 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\main.jsx                                                         | JavaScript JSX |         17 |          0 |          4 |         21 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\services\authService.js                                          | JavaScript     |         26 |          1 |          9 |         36 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\services\axiosInstance.js                                        | JavaScript     |         23 |          1 |          8 |         32 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\services\credentialService.js                                    | JavaScript     |         13 |          5 |          4 |         22 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\services\invoiceService.js                                       | JavaScript     |         32 |          3 |          6 |         41 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\services\templateService.js                                      | JavaScript     |          7 |          1 |          4 |         12 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\src\services\userService.js                                          | JavaScript     |         18 |          3 |          6 |         27 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\tailwind.config.js                                                   | JavaScript     |         14 |          1 |          1 |         16 |
+| c:\Users\maaji\OneDrive\Desktop\WhatsAppMVP\Whatsapp-Business-MAAS-Client\vite.config.js                                                       | JavaScript     |          6 |          1 |          2 |          9 |
+| Total                                                                                                                                          |                |      9,550 |        548 |        596 |     10,694 |
++------------------------------------------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+

@@ -1,0 +1,49 @@
+### To send a new invoice 
+POST http://localhost:8080/invoice
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="pdf"; filename="MONOREPO.pdf"
+Content-Type: application/pdf
+
+< C:/Users/ganim/Downloads/MONOREPO.pdf
+--boundary
+Content-Disposition: form-data; name="name"
+
+John Doe
+--boundary
+Content-Disposition: form-data; name="customer_phone"
+
+1234567890
+--boundary
+Content-Disposition: form-data; name="business_phone"
+
+9876543210
+--boundary
+Content-Disposition: form-data; name="invoice_number"
+
+INV-1001
+--boundary
+Content-Disposition: form-data; name="message"
+
+Here is your invoice
+--boundary--
+
+###  TO get all invoices
+
+GET http://localhost:8080/invoice
+
+### To get a single invoice with ID
+GET http://localhost:8080/invoice/2
+
+###  To upload files to meta social graph
+
+POST http://localhost:8080/media/meta-upload 
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="file"; filename="MONOREPO.pdf"
+Content-Type: application/pdf
+
+< C:/Users/ganim/Downloads/MONOREPO.pdf
+--boundary--

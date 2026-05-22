@@ -1,0 +1,9 @@
+# Ignore everything in the root directory
+/*
+
+# Except these specific folders and their contents
+!/Whatsapp-Business-MAAS-Client/
+!/Whatsapp-Business-MAAS-Server/
+
+# And don't ignore this .gitignore file itself
+!/.gitignore
