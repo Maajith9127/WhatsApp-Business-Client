@@ -5,5 +5,9 @@
 !/Whatsapp-Business-MAAS-Client/
 !/Whatsapp-Business-MAAS-Server/
 
-# And don't ignore this .gitignore file itself
+# And don't ignore these documentation files
 !/.gitignore
+!/README.md
+!/AI_CONTEXT.md
+!/ONE_WEEK_FEASIBILITY_REPORT.md
+!/OTP_ANALYSIS_REPORT.md
