@@ -1,45 +1,18 @@
-<h1 align="center">WhatsApp Business MAAS</h1>
-<p align="center">
-  <img src="https://img.shields.io/badge/license-MIT-green" alt="License" />
-  <img src="https://img.shields.io/badge/node-%3E%3D18.0.0-blue" alt="Node Version" />
-  <img src="https://img.shields.io/badge/react-19.x-cyan" alt="React Version" />
-  <img src="https://img.shields.io/badge/meta_graph_api-v22.0-blue" alt="Meta Graph API" />
-</p>
+# WhatsApp Business Client
 
-<p align="center">
-A multi-tenant WhatsApp Messaging-As-A-Service (MAAS) platform for Meta WABA template execution, transactional invoice distribution, and secure patient OTP verification.
-</p>
+A clean multi-tenant dashboard for WhatsApp Business API — built for sending invoices, managing templates, and tracking analytics.
 
-<p align="center">
-  <a href="#application-previews">Previews</a> &bull;
-  <a href="#how-it-works">How It Works</a> &bull;
-  <a href="#tech-stack">Tech Stack</a> &bull;
-  <a href="#architecture">Architecture</a>
-</p>
+### Screenshots
+![Dashboard](screenshots/DashBoard.png)
+![Template Builder](screenshots/TemplateBuilder.png)
+![Template Management](screenshots/TemplateManagement.png)
+![Settings](screenshots/Settings.png)
 
-<p align="center">
-  <img src="screenshots/DashBoard.png" alt="WhatsApp Business MAAS Dashboard" width="800" style="border-radius: 12px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);" />
-</p>
+### Tech Stack
+- React + Vite
+- Tailwind CSS
+- Meta WhatsApp Business API
 
-## Application Previews
-
-### Template Builder
-An interactive interface to construct and preview Meta WABA template layouts with dynamic variables.
-<p align="center">
-  <img src="screenshots/TemplateBuilder.png" alt="Template Builder" width="800" style="border-radius: 12px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);" />
-</p>
-
-### Template Management
-Track and manage all submitted WhatsApp templates, their categories, languages, and status.
-<p align="center">
-  <img src="screenshots/TemplateManagement.png" alt="Template Management" width="800" style="border-radius: 12px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);" />
-</p>
-
-### Settings & Credentials Configuration
-Configure WhatsApp Business Accounts, developer tokens, webhook credentials, and rate limits.
-<p align="center">
-  <img src="screenshots/Settings.png" alt="Settings Configuration" width="800" style="border-radius: 12px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);" />
-</p>
 
 ## Why WhatsApp Business MAAS?
 
