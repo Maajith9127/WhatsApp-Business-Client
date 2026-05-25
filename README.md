@@ -1,6 +1,6 @@
 # WhatsApp Business Client
 
-A clean multi-tenant dashboard for WhatsApp Business API — built for sending invoices, managing templates, and tracking analytics.
+A clean multi-tenant dashboard for WhatsApp Business API. Send invoices, manage templates, track analytics, and handle customer communication.
 
 ### Screenshots
 ![Dashboard](screenshots/DashBoard.png)
