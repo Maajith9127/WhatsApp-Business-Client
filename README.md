@@ -11,17 +11,34 @@ A multi-tenant WhatsApp Messaging-As-A-Service (MAAS) platform for Meta WABA tem
 </p>
 
 <p align="center">
-  <a href="#documentation">Documentation</a> &bull;
+  <a href="#application-previews">Previews</a> &bull;
   <a href="#how-it-works">How It Works</a> &bull;
   <a href="#tech-stack">Tech Stack</a> &bull;
   <a href="#architecture">Architecture</a>
 </p>
 
 <p align="center">
-  <!-- Place your main application dashboard video or screenshot here -->
-  <a href="INSERT_DEMO_VIDEO_URL_HERE" target="_blank">
-    <img src="https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa?auto=format&fit=crop&w=1200&q=80" alt="WhatsApp Business MAAS Demo" width="600" style="border-radius: 12px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);" />
-  </a>
+  <img src="screenshots/DashBoard.png" alt="WhatsApp Business MAAS Dashboard" width="800" style="border-radius: 12px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);" />
+</p>
+
+## Application Previews
+
+### Template Builder
+An interactive interface to construct and preview Meta WABA template layouts with dynamic variables.
+<p align="center">
+  <img src="screenshots/TemplateBuilder.png" alt="Template Builder" width="800" style="border-radius: 12px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);" />
+</p>
+
+### Template Management
+Track and manage all submitted WhatsApp templates, their categories, languages, and status.
+<p align="center">
+  <img src="screenshots/TemplateManagement.png" alt="Template Management" width="800" style="border-radius: 12px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);" />
+</p>
+
+### Settings & Credentials Configuration
+Configure WhatsApp Business Accounts, developer tokens, webhook credentials, and rate limits.
+<p align="center">
+  <img src="screenshots/Settings.png" alt="Settings Configuration" width="800" style="border-radius: 12px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);" />
 </p>
 
 ## Why WhatsApp Business MAAS?
@@ -51,14 +68,14 @@ sequenceDiagram
     participant Meta as Meta Graph API
     participant Patient as Patient Device
 
-    Client->>Server: POST /api/otp/send { phone_number }
+    Client->>Server: POST /api/otp/send (phone_number)
     Server->>DB: Check Rate Limits & Save Pending OTP
     DB-->>Server: Saved (patient_otp, expiry)
-    Server->>Meta: POST /v22.0/{phone_number_id}/messages (Auth Template)
+    Server->>Meta: POST /v22.0/phone_number_id/messages (Auth Template)
     Meta-->>Server: 200 OK (wamid_1234)
     Meta->>Patient: Delivers WhatsApp OTP message
     Patient->>Client: Inputs 6-Digit Code
-    Client->>Server: POST /api/otp/verify { phone_number, otp }
+    Client->>Server: POST /api/otp/verify (phone_number, otp)
     Server->>DB: Check OTP validity & expiration
     DB-->>Server: Valid
     Server-->>Client: 200 OK (Authenticated/Verified)
